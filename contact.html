@@ -32,12 +32,22 @@
     CA15/16, Alaba Int'l Market, Ojo Igbedé Road, Lagos<br>
     Phone: +234 803 307 8511
   </p>
-  <form action="https://formspree.io/f/xanorknj" method="POST">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-    <button type="submit">Send Message</button>
-  </form>
+  <form
+  action="https://formspree.io/f/xanorknj"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
   <div style="text-align:center; margin-top: 20px;">
   <iframe 
     src="https://www.google.com/maps?q=CA15/16%2C+Alaba+International+Market%2C+Ojo+Igbedé+Road%2C+Lagos&output=embed" 
